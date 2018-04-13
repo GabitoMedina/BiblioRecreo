@@ -11,18 +11,28 @@
 |
 */
 // Route::resource('Producto','ProductoController');
-Route::get('/producto', function () {
-    return view('index');
+// Route::get('/producto', function () {
+//     return view('index');
+// });
+
+//
+
+Route::get('/', function () {
+    return view('layouts.plantilla');
+});
+Route::get('/client', function () {
+    return view('cliente.create');
+});
+Route::get('/product', function () {
+    return view('producto.index');
 });
 
-//
-
-// Route::get('/', function () {
-//     return view('plantilla');
-// });
+Route::get('/sell', function () {
+    return view('ventas.create');
+});
 //
 // Route::get('/addprod', function () {
-//     return view('addproducts');
+//     return view('create');
 // });
 // Route::get('/prod', function () {
 //     return view('products');

@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Starter</title>
+  <title>CGV | start</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -64,7 +64,7 @@ desired effect
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Admin</b>CGV</span>
     </a>
 
     <!-- Header Navbar -->
@@ -79,12 +79,12 @@ desired effect
           <!-- Messages: style can be found in dropdown.less-->
           <li class="dropdown messages-menu">
             <!-- Menu toggle button -->
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-envelope-o"></i>
               <span class="label label-success">4</span>
-            </a>
+            </a> -->
             <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
+              <!-- <li class="header">You have 4 messages</li> -->
               <li>
                 <!-- inner menu: contains the messages -->
                 <ul class="menu">
@@ -237,9 +237,9 @@ desired effect
           <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>User CGVSolucion</p>
           <!-- Status -->
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          <!-- <a href="#"><i class="fa fa-circle text-success"></i> Online</a> -->
         </div>
       </div>
 
@@ -259,19 +259,62 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li class="active"><a href="../users/index"><i class="fa fa-users"></i> <span>Ususarios</span></a></li>
+        <li class="active"><a href="#"><i class="fa fa-glass"></i> <span>Productos</span></a></li>
+        <li><a href="#"><i class="fa fa-gears"></i> <span>Configuración</span></a></li>
+        <li><a href="#"><i class="fa fa-file"></i> <span>Proformas</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#"><i class="fa fa-usd"></i> <span>Vender</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="view/createuser.blade.php">Link in level 2</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-database"></i> <span>Catalogos</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href=""></a></li>
+            <li><a href="#">Clientes</a></li>
+          </ul>
+          <ul class="treeview-menu">
+            <li><a href=""></a></li>
+            <li><a href="#">Proveedores</a></li>
+          </ul>
+          <ul class="treeview-menu">
+            <li><a href=""></a></li>
+            <li><a href="#">Garantia</a></li>
+          </ul>
+          <ul class="treeview-menu">
+            <li><a href=""></a></li>
+            <li><a href="#">Categoria</a></li>
+          </ul>
+
+
+        </li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-link"></i> <span>Reportes</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="producto/index">Productos</a></li>
+            <li><a href="#">Link in level 2</a></li>
+          </ul>
+          <ul class="treeview-menu">
+            <li><a href="view/createuser.blade.php">Inventario</a></li>
             <li><a href="#">Link in level 2</a></li>
           </ul>
         </li>
+
       </ul>
       <!-- /.sidebar-menu -->
     </section>
